@@ -56,7 +56,7 @@ const apiAuthurRandom = () => {
 }
 
 const apiBookAuthur = (id_tacgia) => {
-    axios.post('/api/get-book-authur', { id_tacgia })
+    axios.get('/api/get-book-authur', { id_tacgia })
 }
 
 const apiRandomBook = (id_tacgia) => {
